@@ -14,3 +14,5 @@ Sixth did some variant tests on both LR, RF and KNN
 14th new drawing board on ideas and a view simple visuals to help me understand what was going
 
 15th now need to PCA
+16th cleaniness ratings i have seen elsewhere...
+17th modern dataset
