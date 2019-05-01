@@ -1,0 +1,2 @@
+Expecting Location and images and reviews to drive so much of the results that maybe dummy variabling the reviews to down play their effect, decision tree the zipcode to downplay that and a future CNN to figure out images in another edition.
+Finally just a few slides to show the summary of results
