@@ -12,7 +12,21 @@ Sixth did some variant tests on both LR, RF and KNN
 12th a30 won so added it to the best case Entire Room, Accommodates: SUCCESS .411 from initial 32.64
 13th Created function and refactored code
 14th new drawing board on ideas and a view simple visuals to help me understand what was going
+15th fixed beds bug
+--
+16th Dropped High prices that were throwing it off to run Random Forest
+17th ran city vs zipcode. City determined nothing so dropped.
+18th Travis on price per person
+19th dummy variable beds+ba
+20th for loop Visualizations on each component...
+21st Reporting Log Results and print (.append?)
+22nd drop max minimum nights to 31 because one result had a 180 night minimum.
 
-15th now need to PCA
-16th cleaniness ratings i have seen elsewhere...
-17th modern dataset
+
+cleaniness ratings i have seen elsewhere...
+modern dataset
+See if I can import reviews from LA dataset and play there
+Examine others code
+
+
+Next time: need to PCA
