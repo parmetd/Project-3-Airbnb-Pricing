@@ -21,12 +21,13 @@ Sixth did some variant tests on both LR, RF and KNN
 20th for loop Visualizations on each component...
 21st Reporting Log Results and print (.append?)
 22nd drop max minimum nights to 31 because one result had a 180 night minimum.
+23rd created heatmap for correlations
+24th created more visualizations
+25th dropped minimum_nights due to heatmap correlations
 
+Examine others code cleaniness ratings i have seen elsewhere...
 
-cleaniness ratings i have seen elsewhere...
 modern dataset
-See if I can import reviews from LA dataset and play there
-Examine others code
-
-
 Next time: need to PCA
+Photo Classifier
+NLP on reviews
