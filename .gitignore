@@ -109,3 +109,8 @@ config.js
 #Apple File
 .DS_Store
 **/.DS_Store
+
+
+# LA Data is too large
+.LAAirbnb/
+.Chicago/
