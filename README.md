@@ -102,7 +102,7 @@ What I would do next time:
 
 Update on 5.8.2019 to from Version 1.0 to Version 1.1
 Changelog:
-New Jupyter notebook to reflect the next time results of:
+New Jupyter notebook (Airbnb_ML_improved) to reflect the next time results of:
 4. Refactor cleanup process to work etter
 
 This improves new ML from .55298 to .620 on Linear Regression and .647 on Random Forest! Goal of .6 achieved. This was done on the entire data set without the property type slice of entire_home.
@@ -110,13 +110,12 @@ This improves new ML from .55298 to .620 on Linear Regression and .647 on Random
 So now future edition is:
 
 What I would do next time:
-1. Test Version 1.1 on Entire_home
-2. Test PCA (Principal Component Analysis).
-3. Use a more modern dataset from http://insideairbnb.com/.
-4. If I had used insiderairbnb data (found it sooner rather than the kaggle dataset...) I would have had more robust data like: reviews, calendars which allows me to set for cleanliness data and other factors hosts get rated on as well as test for seasonality time series data. Undoubtedly a more complex problem but I would have expected better results.
-5. There is a definite opportunity to do NLP on reviews to see how better or worse reviews drive more price.
-6. I would add more visualizations (time restrictions, short project).
-7. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
-8. Deeper exploration into room rentals. 
-9. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
-10. Still a really high error term which is concerning.
+1. Test PCA (Principal Component Analysis).
+2. Use a more modern dataset from http://insideairbnb.com/.
+3. If I had used insiderairbnb data (found it sooner rather than the kaggle dataset...) I would have had more robust data like: reviews, calendars which allows me to set for cleanliness data and other factors hosts get rated on as well as test for seasonality time series data. Undoubtedly a more complex problem but I would have expected better results.
+4. There is a definite opportunity to do NLP on reviews to see how better or worse reviews drive more price.
+5. I would add more visualizations (time restrictions, short project).
+6. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
+7. Deeper exploration into room rentals. 
+8. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
+9. Still a really high error term which is concerning.
