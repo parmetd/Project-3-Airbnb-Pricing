@@ -89,11 +89,12 @@ Sixth did some variant tests on both LR, RF and KNN
 25th dropped minimum_nights due to heatmap correlations
 
 What I would do next time:
-1. Test PCA (Principal Component Analysis)
-2. Use a more modern dataset from http://insideairbnb.com/
+1. Test PCA (Principal Component Analysis).
+2. Use a more modern dataset from http://insideairbnb.com/.
 3. If I had used insiderairbnb data (found it sooner rather than the kaggle dataset...) I would have had more robust data like: reviews, calendars which allows me to set for cleanliness data and other factors hosts get rated on as well as test for seasonality time series data. Undoubtedly a more complex problem but I would have expected better results.
 4. I would refactor my cleanup and EDA code to work better.
-5. I think there is a definite opportunity to do NLP on reviews to see how better or worse reviews drive more price.
-6. I would add more visualizations (time restrictions, short project)
-7. Certainly Airbnb's own conclusiosn 10 years ago were not suprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
-8. Further diving into room rental 
+5. There is a definite opportunity to do NLP on reviews to see how better or worse reviews drive more price.
+6. I would add more visualizations (time restrictions, short project).
+7. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
+8. Deeper exploration into room rentals. 
+9. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
