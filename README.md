@@ -98,14 +98,20 @@ What I would do next time:
 7. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
 8. Deeper exploration into room rentals. 
 9. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
+10. Still a really high error term which is concerning.
 
 
-Update on 5.8.2019 to from Version 1.0 to Version 1.1
+
+
+***Update on 5.8.2019 from Version 1.0 to Version 1.1***
+
+
 Changelog:
 New Jupyter notebook (Airbnb_ML_improved) to reflect the next time results of:
 4. Refactor cleanup process to work etter
 
 This improves new ML from .55298 to .620 on Linear Regression and .647 on Random Forest! Goal of .6 achieved. This was done on the entire data set without the property type slice of entire_home.
+------
 
 So now future edition is:
 
