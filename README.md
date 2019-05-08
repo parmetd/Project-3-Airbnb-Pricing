@@ -57,7 +57,8 @@ Conclusions:
 This dataset was the DC area. 
 1) Minimum nights apparently has nothing to do with price.
 2) Accommodates is correlated with beds and bedrooms but it drives the price less.
-3) Superhost seems to matter and is worth testing more.
+3) There is definitely a chance to segment along entire homes vs rooms.
+4) Superhost seems to matter and is worth testing more.
 
 
 Log of steps taken:
