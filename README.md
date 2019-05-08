@@ -125,3 +125,26 @@ What I would do next time:
 7. Deeper exploration into room rentals. 
 8. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
 9. Still a really high error term which is concerning.
+
+
+***Update on 5.8.2019 from Version 1.1 to Version 1.2***
+Changelog:
+1. Added XGBoost
+2. Added Visualization of feature importance (5. above)
+3. Attempted to add Deep Learning / Neural Network (still needs work)
+4. Cleaned up some code
+5. Compared the improved results
+6. Deeper exploration of room rentals
+7. New best .755 with XGBoost!
+
+So now future edition is:
+
+What I would do next time:
+1. Fix Deep Learning
+2. Test PCA (Principal Component Analysis).
+3. Use a more modern dataset from http://insideairbnb.com/.
+4. If I had used insiderairbnb data (found it sooner rather than the kaggle dataset...) I would have had more robust data like: reviews, calendars which allows me to set for cleanliness data and other factors hosts get rated on as well as test for seasonality time series data. Undoubtedly a more complex problem but I would have expected better results.
+5. There is a definite opportunity to do NLP on reviews to see how better or worse reviews drive more price.
+6. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
+7. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
+8. Still a really high error term which is concerning.
