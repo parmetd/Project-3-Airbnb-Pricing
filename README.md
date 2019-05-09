@@ -1,5 +1,5 @@
 # Project-3-Airbnb-Pricing
-Machine Learning final project by Daniel Parmet 5/7/2019 Version 1.0. 5/8/2019 Version 1.1.
+Machine Learning final project by Daniel Parmet 5/7/2019 Version 1.0. 5/8/2019 Version 1.1. 5/8/2019 Version 1.2. 5/8/2019 Version 1.3.
 
 Airbnb discussing their algo: https://www.vrmintel.com/inside-airbnbs-algorithm/
 Airbnb discussing the data science in general: https://www.datacamp.com/community/podcast/data-science-airbnb
@@ -135,7 +135,7 @@ Changelog:
 4. Cleaned up some code
 5. Compared the improved results
 6. Deeper exploration of room rentals
-7. New best .755 with XGBoost!
+7. New best .755 with XGBoost! (More on that here: https://en.wikipedia.org/wiki/Gradient_boosting). It is probably slightly overfitting though as train was .946.
 
 So now future edition is:
 
@@ -148,3 +148,21 @@ What I would do next time:
 6. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
 7. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
 8. Still a really high error term which is concerning.
+
+***Update on 5.8.2019 from Version 1.2 to Version 1.3***
+1. KNN added though it's useless.
+2. A few bug fixes.
+3. cleaned code.
+4. Added Lasso (1&5), Ridge(1&5), ElasticNet(1&5)
+5. Fixed Deep Learning Network although it is also useless.
+
+So now future edition is:
+
+What I would do next time:
+1. Test PCA (Principal Component Analysis).
+2. Use a more modern dataset from http://insideairbnb.com/.
+3. If I had used insiderairbnb data (found it sooner rather than the kaggle dataset...) I would have had more robust data like: reviews, calendars which allows me to set for cleanliness data and other factors hosts get rated on as well as test for seasonality time series data. Undoubtedly a more complex problem but I would have expected better results.
+4. There is a definite opportunity to do NLP on reviews to see how better or worse reviews drive more price.
+5. Airbnb's own conclusions 10 years ago were not surprising: PHOTOS PHOTOS PHOTOS. I would attempt to build an image classifier to see what results might be based on listings' photos.
+6. This dataset was solely DC and one day. It would be nice to explore other cities to see how much that matters as city contributed nothing as a variable.
+7. Still a really high error term which is concerning.
